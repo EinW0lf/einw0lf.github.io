@@ -4,18 +4,6 @@ body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#bg_vid {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	filter: blur(5px);
-}
-
 div {
 	position: absolute;
 	top: 60%;
@@ -74,25 +62,25 @@ div {
 
 @keyframes shadow-color {
 	0% {
-		box-shadow: 0px 0px 20px 5px rgba(255, 0, 0, 0.5), inset 0px 0px 0.5px 0.5px #000;
+		box-shadow: 0px 0px 20px 5px rgba(255, 0, 0, 0.5), inset 0px 0px 0.5px 0.5px #c9ffbf;
 	}
 	16.6% {
-		box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.5), inset 0px 0px 0.5px 0.5px #000;
+		box-shadow: 0px 0px 20px 5px rgba(255, 0, 255, 0.5), inset 0px 0px 0.5px 0.5px #c9ffbf;
 	}
 	33.3% {
-		box-shadow: 0px 0px 20px 5px rgba(0, 0, 255, 0.5), inset 0px 0px 0.5px 0.5px #000;
+		box-shadow: 0px 0px 20px 5px rgba(0, 0, 255, 0.5), inset 0px 0px 0.5px 0.5px #c9ffbf;
 	}
 	50% {
-		box-shadow: 0px 0px 20px 5px rgba(0, 255, 255, 0.5), inset 0px 0px 0.5px 0.5px #000;
+		box-shadow: 0px 0px 20px 5px rgba(0, 255, 255, 0.5), inset 0px 0px 0.5px 0.5px #c9ffbf;
 	}
 	66.6% {
-		box-shadow: 0px 0px 20px 5px rgba(0, 255, 0, 0.5), inset 0px 0px 0.5px 0.5px #000;
+		box-shadow: 0px 0px 20px 5px rgba(0, 255, 0, 0.5), inset 0px 0px 0.5px 0.5px #c9ffbf;
 	}
 	83.3% {
-		box-shadow: 0px 0px 20px 5px rgba(255, 255, 0, 0.5), inset 0px 0px 0.5px 0.5px #000;
+		box-shadow: 0px 0px 20px 5px rgba(255, 255, 0, 0.5), inset 0px 0px 0.5px 0.5px #c9ffbf;
 	}
 	100% {
-		box-shadow: 0px 0px 20px 5px rgba(255, 0, 0, 0.5), inset 0px 0px 0.5px 0.5px #000;
+		box-shadow: 0px 0px 20px 5px rgba(255, 0, 0, 0.5), inset 0px 0px 0.5px 0.5px #c9ffbf;
 	}
 }
 

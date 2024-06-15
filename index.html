@@ -3,8 +3,8 @@
 	<head>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<meta charset="UTF-8" />
-		<title>About Me</title>
-		<link rel="shortcut icon" type="image/png" href="./Images/ok-cat.gif" />
+		<title>About EinW0lf</title>
+		<link rel="shortcut icon" type="image/gif" href="./assets/frieren.gif" />
 		<link rel="stylesheet" href="style.css" />
 		<script>
 			$(function () {
@@ -41,41 +41,22 @@
 		</script>
 	</head>
 	<body>
-		<video autoplay muted loop poster="your-poster-image.jpg" id="bg_vid">Your browser does not support the video tag.</video>
-
+	<body style="background-image: url('./assets/windows.png'); background-size: cover;">
 		<div class="center-screen">
 			<div class="container">
 				<h2 class="tooltip" data-tooltip="also known as <span class='green-text'>_Ein_Wolf_</span> or <span class='blue-text'>EinWolf</span>">Hi there, I'm EinW0lf</h2>
-				<p>I'm a 20-year-old from Germany.</p>
-				<p></p>
-				<p>currently theres not much on this page</p>
+				<img src="./assets/frieren.gif" alt="Profile Picture" />
+				<p>I'm a 21-year-old from Germany.</p>
+				<p>I love coding, music, and gaming. I am currently learning web development and exploring the world of AI.</p>
+				<p>Currently studying Mechanical engineering</p>
+				<p>Stay tuned for more updates!</p>
 			</div>
-
 			<div class="button-container">
-				<a href="https://open.spotify.com/user/einwolf2002"><img src="./Images/spotify.png" alt="spotify" style="background-color: green" /></a>
-				<a href="https://discord.gg/texdXu3ezZ"><img src="./Images/discord.png" alt="discord" style="background-color: #7289da" /></a>
-				<a href="https://twitter.com/benpeng1711"><img src="./Images/twitter.png" alt="twitter" style="background-color: #1da1f2" /></a>
-				<a href="https://youtu.be/UGTa_X8nGBY"><img src="./Images/youtube.png" alt="youtube" style="background-color: red" /></a>
+				<a href="https://open.spotify.com/user/einwolf2002"><img src="./assets/spotify.png" alt="spotify" style="background-color: green" /></a>
+				<a href="https://discord.gg/GuBsgv7Cmy"><img src="./assets/discord.png" alt="discord" style="background-color: #7289da" /></a>
+				<a href="https://x.com/benpeng1711"><img src="./assets/x.png" alt="X (Twitter)" style="background-color: #fff" /></a>
+				<a href="https://youtu.be/UGTa_X8nGBY"><img src="./assets/youtube.png" alt="youtube" style="background-color: red" /></a>
 			</div>
-
-			<script>
-				var videoFiles = [
-					// These videos are are from https://youtube.com/playlist?list=PL5POt7v8GG2Xehz7FrdTODu90qocBZ7R2
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079018993999958076/Eternal_Light_V2.mp4",
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079019495659679884/Retro_Drive.mp4",
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079019497668755508/Night_Drive.mp4",
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079019499770085468/Rising_Light.mp4",
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079019501779169390/SKYLINE.mp4",
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079019504253812746/Somewhere_Down_the_Line.mp4",
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079019580036485130/Synth_City.mp4",
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079019581928112128/The_Drive_-_ft_HOME_-_Resonance.mp4",
-					"https://cdn.discordapp.com/attachments/1079018846754709626/1079019584725712906/This_Town.mp4",
-				];
-				var randomIndex = Math.floor(Math.random() * videoFiles.length);
-				var selectedVideo = videoFiles[randomIndex];
-				var video = document.getElementById("bg_vid");
-				video.src = selectedVideo;
-			</script>
 		</div>
 	</body>
 </html>
