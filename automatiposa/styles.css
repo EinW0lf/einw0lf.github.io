@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #333;
+	color: #ddd;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+	background: #444;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2 {
+	color: #fff;
+}
+
+p,
+ul {
+	color: #ccc;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+strong {
+	color: #fff;
+}
+
+a {
+	color: #1e90ff; /* DodgerBlue */
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00bfff; /* DeepSkyBlue */
+	text-decoration: underline;
+}
